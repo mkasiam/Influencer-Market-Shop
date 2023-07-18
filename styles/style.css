@@ -243,10 +243,11 @@ footer {
     }
     .sponsor-container{
         margin: 20px 0;
-        display: grid;
-        grid-template-columns:repeat(4,1fr);
+        display: flex;
+        flex-wrap: wrap;
     }
     .collection-container{
+        padding: 10px;
         grid-template-columns: 1fr;
     }
     .featured-left img{
@@ -268,9 +269,9 @@ footer {
     .nav-left h1{
         text-align: center;
     }
-    .nav-right {
+    .nav-right a {
         text-align: center;
-        padding: 10px 0;
+        padding: 20px 0;
     }
     .banner-text-container{
         text-align: center;
@@ -291,7 +292,8 @@ footer {
         margin: 20px 0;
     }
     .collection-container{
-        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        grid-template-columns: 1fr;
     }
     .featured-left img{
         margin: 20px 0;
