@@ -248,7 +248,7 @@ footer {
     }
     .collection-container{
         padding: 10px;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
     .featured-left img{
         margin: 20px 0;
@@ -269,7 +269,7 @@ footer {
     .nav-left h1{
         text-align: center;
     }
-    .nav-right a {
+    .nav-right{
         text-align: center;
         padding: 20px 0;
     }
@@ -293,7 +293,7 @@ footer {
     }
     .collection-container{
         padding: 10px;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3,1fr);
     }
     .featured-left img{
         margin: 20px 0;
